@@ -1,5 +1,4 @@
-# nubit
-testnet
+# TESTNET NUBIT
 
 #UPDATE & UPGRADE
 ```
