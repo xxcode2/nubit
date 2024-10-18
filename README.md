@@ -1,20 +1,38 @@
 # nubit
 testnet
 
+#UPDATE & UPGRADE
 ```
-`sudo apt update && sudo apt upgrade -y`
+sudo apt update && sudo apt upgrade -y
 ```
-`screen -S nubit`
+
+# SCREEN NEW
 ```
-`curl -sL1 https://nubit.sh | bash`
+screen -S nubit
 ```
-`cd nubit-node && sudo cat mnemonic.txt`
+
+#INSTALL NUBIT
 ```
-`screen -r nubit`
+curl -sL1 https://nubit.sh | bash
 ```
+
+CLOSE SCREEN
+* CTRL  + A + D
+  #VIEW MNEMONIC
 ```
-`pkill -f nubit
+cd nubit-node && sudo cat mnemonic.txt
+```
+
+#BACK TO SCREEN
+```
+screen -r nubit
+```
+
+#REMOVE NDOE
+```
+pkill -f nubit
 
 rm -rf nubit-node
 
-rm -rf $HOME/.nubit-light-nubit-alphatestnet-1`
+rm -rf $HOME/.nubit-light-nubit-alphatestnet-1
+```
